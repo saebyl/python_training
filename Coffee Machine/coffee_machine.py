@@ -1,4 +1,4 @@
-from platform import machine
+import sys
 
 MENU = {
     "espresso": {
@@ -31,7 +31,6 @@ resources = {
     "milk": 200, #200
     "coffee": 100,
 }
-import sys
 
 
 def format_number(num_type, value):
